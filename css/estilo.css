@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: linear-gradient(black, #050542);
+  color: white; }
+
+header h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 7px;
+  color: #abf8f0; }
+
+header nav ul {
+  list-style-type: none;
+  margin: 5px auto;
+  text-align: center; }
+  header nav ul li {
+    display: inline-block;
+    text-align: center; }
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+      display: inline-block;
+      margin: 5px; }
+      header nav ul li a:hover {
+        color: turquoise; }
+
+main .menu1 {
+  margin: 30px auto;
+  height: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row; }
+  main .menu1 div img {
+    padding: 10px; }
+  main .menu1 div h2 {
+    color: #448fcc;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    text-align: center; }
+  main .menu1 div p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    line-height: 2rem;
+    font-size: 1.5rem; }
+
+main .menu2 {
+  margin: 30px auto;
+  height: 250px;
+  width: 80%;
+  display: flex;
+  flex-direction: row; }
+  main .menu2 .caja1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    transition: 2s; }
+    main .menu2 .caja1:hover {
+      background-color: aquamarine; }
+    main .menu2 .caja1 div h3 {
+      font-size: 2rem;
+      padding: 10px; }
+    main .menu2 .caja1 div p {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      line-height: 2rem;
+      font-size: 1.5rem;
+      color: #a9a9a9b9;
+      margin: 10px 10px; }
+  main .menu2 .caja2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    transition: 2s; }
+    main .menu2 .caja2:hover {
+      background-color: aquamarine; }
+    main .menu2 .caja2 div h3 {
+      font-size: 2rem;
+      padding: 10px; }
+    main .menu2 .caja2 div p {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      line-height: 2rem;
+      font-size: 1.5rem;
+      color: #a9a9a9b9;
+      margin: 10px 10px; }
+  main .menu2 .caja3 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    transition: 2s; }
+    main .menu2 .caja3:hover {
+      background-color: aquamarine; }
+    main .menu2 .caja3 div h3 {
+      font-size: 2rem;
+      padding: 10px; }
+    main .menu2 .caja3 div p {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      line-height: 2rem;
+      font-size: 1.5rem;
+      color: #a9a9a9b9;
+      margin: 10px 10px; }
+
+main .menu3 {
+  width: 80%;
+  margin: auto; }
+  main .menu3 h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #006acd;
+    margin: auto;
+    padding-bottom: 20px; }
+  main .menu3 .caja {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    main .menu3 .caja .cajaA {
+      width: 400px;
+      height: auto;
+      margin: auto; }
+    main .menu3 .caja h3 {
+      font-size: 2rem;
+      color: #448fcc; }
+    main .menu3 .caja p {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      line-height: 2rem;
+      font-size: 1.2rem; }
+
+footer {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #abf8f0;
+  margin: 20px; }

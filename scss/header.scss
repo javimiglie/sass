@@ -1,0 +1,29 @@
+header {
+    h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 3rem;
+        text-align: center;
+        letter-spacing: 7px;
+        color: rgb(171, 248, 240);
+    }
+    nav {
+        ul {
+            list-style-type: none;
+            margin: 5px auto;
+            text-align: center;
+            li {
+                display: inline-block;
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    display: inline-block;
+                    margin: 5px;
+                    &:hover {
+                        color: turquoise;
+                    }
+                }
+            }
+        }
+    }
+}
